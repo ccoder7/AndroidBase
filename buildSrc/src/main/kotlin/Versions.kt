@@ -12,6 +12,8 @@ object Versions {
     const val logger = "2.2.0"
     const val epoxy = "3.11.0"
 
+    const val bintrayRelease = "0.9.2"
+
     // Test frameworks
     const val junit = "4.12"
     const val espresso = "3.2.0"

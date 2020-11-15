@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     commonPlugins.forEach { id(it) }
+    id("com.novoda.bintray-release")
 }
 
 configAndroid()
@@ -13,4 +14,9 @@ dependencies {
     implementation(Dependencies.Retrofit.gsonConverter)
     implementation(Dependencies.Retrofit.rxJavaAdapter)
 }
+
+//configure<PublishExtension> {
+//    userOrg = ""
+//
+//}
 

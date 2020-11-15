@@ -11,6 +11,8 @@ import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
+// TODO: provide default definition
+// Give the control to app project to define network module with configuration
 val networkModule = module {
     single<Interceptor> {
         HttpLoggingInterceptor().apply {
